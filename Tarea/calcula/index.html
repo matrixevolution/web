@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Calculadora en PHP</title>
+<link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div align="center" class="Title" id="title">Calculadora Basica</div><br />
+//<a href="http://bib.us.es/ingenieros/aprendizaje_investigacion/common/Flash/google_09.swf
+ " target="_blank">Jajaj</a>
+<hr />
+<form method="get" action="calcular.php">
+  <center>
+  <table width="216"  style="border: 1px solid;" height="60" border="0" cellpadding="1" cellspacing="0" bordercolor="#000000">
+    <tr>
+      <td width="58" bgcolor="#00CCFF"><label class="Label">
+        <div align="left">Primer Numero:
+          </label>
+        </div></td>
+      <td width="122" bgcolor="#006699">
+      
+        <div align="left">
+          <input type="text" name="num1" class="TextBox" />
+          </div></td>
+    </tr>
+    <tr>
+      <td bgcolor="#00CCFF"><label class="Label">
+        <div align="left">Segundo Numero:
+          </label>
+
+        </div></td>
+      <td bgcolor="#006699">
+        
+        <div align="left">
+          <input type="text" name="num2" class="TextBox" />
+        </div></td>
+    </tr>
+    <tr>
+      <td bgcolor="#00CCFF"><div align="left"></div></td>
+      <td bgcolor="#006699">
+        
+              <div align="left">
+                        <select name="type" class="Select">
+                          <option value="sumar">Sumar</option>
+                          <option value="restar">Restar</option>
+                          <option value="producto">Producto</option>
+                          <option value="dividir">Dividir</option>
+                          <option value="modulo">Modulo</option>
+                          <option value="potencia">Potencia</option>
+                          <option value="factorial">Factorial</option>
+                        </select>
+              </div></td>
+    </tr>
+    <tr>
+      <td bgcolor="#00CCFF">
+        
+        <div align="left">
+          <input name="submit" type="submit" class="Button" value="Calcula" />
+          <input type=reset value="C">
+        </div></td>
+      <td bgcolor="#00CCFF"><div align="left"></div></td>
+    </tr>
+  </table>
+
+  </center>
+</form>
+<hr />
+</body>
+</html>

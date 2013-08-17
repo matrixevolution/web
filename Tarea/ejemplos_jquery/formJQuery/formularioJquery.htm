@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title></title>
+  <script language="javascript" src="js/jquery.js"></script>
+  <script language="javascript" src="js/funcionesForm.js"></script>
+
+</head>
+
+<body>
+  <form>
+  <p>
+	<label for="name">Nombre:</label>
+	<input type="text" placeholder="Gaspar" name="nombre" id="nombre" required="required"/>
+  </p>
+  <p>
+	<label for="name">Apellidos:</label>
+	<input type="text" placeholder="Henaide" name="apellido" id="apellido" required="required"/>
+  </p>
+  <p>
+    <label for="name">Correo: </label>
+    <input  type="email"  placeholder="capulina@nolose.com" name="correo" id="correo" required="required"/>
+  </p>
+  <p>
+    <label for="name">Nick: </label>
+    <input type="text"  placeholder="capulina" name="nick" id="nick" required="required"/>
+  </p>
+  <p>
+    <!--<input type="button" name="enviar" id="enviar" title="Enviar" value="Enviar"/>-->
+    <input type="button" name="enviar" id="enviar" title="Enviar" value="Enviar"/>
+    <input type="button" name="enviar" id="postear" title="Enviar" value="Postear"/>
+    <input type="button" name="enviar" id="ajaxEar" title="Enviar" value="con Ajax"/>
+    <input type="button" id="limpiar" title="limpiar" value="Limpiar"/>
+  </p>
+</form>
+  <div id="enviados">
+    Datos:
+  </div>
+</body>
+
+</html>
+
+
